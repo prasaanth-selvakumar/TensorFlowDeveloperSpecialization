@@ -40,4 +40,4 @@ print(model.predict([10])) ## the output of the prediction should be close to 25
 #### Learnings
 ## Since the number of input samples are low
 # The Model takes about 1200 epochs to converge with a batch size of 2
-# increasing the batch size to 10
+# increasing the batch size to 10 - no change ; convergence actually took more time
