@@ -10,4 +10,7 @@ pip install tensorflow=2.0.0-a0
 
  - Regression  
         1. Simple_Linear_regression.py  
-        2. simple_house_price_prediction_problem.py  
+        2. simple_house_price_prediction_problem.py
+ - Classification   
+        1. simple_fashion_mnist.py    
+        2. simple_classification_problem_fashion_mnist_with_callback.py  

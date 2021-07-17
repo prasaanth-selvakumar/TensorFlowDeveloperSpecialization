@@ -12,6 +12,9 @@ class EpochEndCallback(keras.callbacks.Callback):
             self.model.stop_training = True
 
 
+train_images = train_images/255.0  # Normalizing Data
+test_images = test_images/255.0
+
 eeCallback = EpochEndCallback()
 
 model = keras.Sequential([keras.layers.Flatten(input_shape=(28, 28)),
